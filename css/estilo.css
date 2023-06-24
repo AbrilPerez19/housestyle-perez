@@ -4,12 +4,14 @@
     box-sizing: border-box;
 }
 
+
 a,
 a:active {
     text-decoration: none;
     color: #050505;
     font-size: large;
 }
+
 
 /*----INICIO DE HAEDER----*/
 .df-header {
@@ -21,6 +23,7 @@ a:active {
     padding: 15px;
 }
 
+
 .logo {
     display: flex;
     align-items: center;
@@ -28,10 +31,12 @@ a:active {
 
 }
 
+
 .logo p {
     margin: 10px;
 
 }
+
 
 .df-ul {
     display: flex;
@@ -39,8 +44,48 @@ a:active {
     align-items: center;
     justify-content: center;
     list-style: none;
-
 }
+
+.ini-bot:hover {
+    transform: scale(1.1);
+    transition: all 1s ease-in;
+}
+
+.nos-bot:hover {
+    transform: scale(1.1);
+    transition: all 1s ease-in;
+}
+
+.ses-bot:hover {
+    transform: scale(1.1);
+    transition: all 1s ease-in;
+}
+
+.ideas-bot:hover {
+    transform: scale(1.1);
+    transition: all 1s ease-in;
+}
+
+.favs-bot:hover {
+    transform: scale(1.1);
+    transition: all 1s ease-in;
+}
+
+
+@media (max-width:1024px) {
+    .df-ul {
+        width: 850px;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:844px) {
+    .df-ul {
+        width: 130px;
+        flex-wrap: wrap;
+    }
+}
+
 
 .df-ul li {
     margin: 10px;
@@ -48,13 +93,14 @@ a:active {
     font-weight: lighter;
 }
 
+
 #house {
     color: rgb(0, 0, 0);
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
     font-size: 200%;
-
 }
+
 
 .barra-ofertas {
     text-align: center;
@@ -64,8 +110,22 @@ a:active {
     padding-top: 28px;
     padding-bottom: 28px;
     border-style: solid;
-
 }
+
+@media (max-width:1024px) {
+    .img-barra {
+        width: 700px;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:844px) {
+    .img-barra {
+        width: 350px;
+        flex-wrap: wrap;
+    }
+}
+
 
 .categoria-h1 {
     text-align: center;
@@ -73,8 +133,8 @@ a:active {
     font-family: 'Roboto Condensed', sans-serif;
     margin-bottom: 5%;
     margin-top: 1%;
-
 }
+
 
 .categorias-img {
     display: flex;
@@ -82,19 +142,60 @@ a:active {
     list-style: none;
     margin-left: 2%;
     margin-right: 2%;
-
 }
+
+@media (max-width:1024px) {
+    .categorias-img {
+        width: 700px;
+        flex-wrap: wrap; 
+    }
+}
+
+@media (max-width:840px) {
+    .categorias-img {
+        width: 280px;
+        flex-wrap: wrap;
+    }
+}
+
 
 .categorias-img img {
     Width: 200px
 }
 
+.img-tex:hover {
+    transform: scale(1.2);
+    transition: all 1s ease-in;
+}
+
+.img-muebles:hover {
+    transform: scale(1.2);
+    transition: all 1s ease-in;
+}
+
+.img-ilu:hover {
+    transform: scale(1.2);
+    transition: all 1s ease-in;
+}
+
+.img-bañ:hover {
+    transform: scale(1.2);
+    transition: all 1s ease-in;
+}
+
+.img-jar:hover {
+    transform: scale(1.2);
+    transition: all 1s ease-in;
+}
+
+
+
 /*----FIN DE HAEDER----*/
+
 
 /*----INICIO DE MAIN----*/
 
 .min-height {
-
     justify-content: space-around;
     margin-left: 10%;
     margin-right: 5%;
@@ -104,30 +205,28 @@ a:active {
     border: black;
     flex-wrap: wrap;
     padding: 20px;
-
 }
+
 
 .objetivo-espacio {
     margin-top: 5%;
     padding-bottom: 16px;
     flex-wrap: wrap;
-
 }
+
 
 .text-2 {
     flex-wrap: wrap;
     min-width: 75vh;
-
 }
+
 
 .gracias-1 {
     flex-wrap: wrap;
-
     height: 100px;
     margin-top: 50px;
     text-align: center;
 }
-
 
 
 .ideas-casa {
@@ -137,6 +236,21 @@ a:active {
     margin-bottom: 5%;
     font-size: larger;
 }
+
+@media (max-width:1024px) {
+    .ideas-casa {
+        width: 700px;
+        flex-wrap: wrap; 
+    }
+}
+
+@media (max-width:840px) {
+    .ideas-casa {
+        width: 380px;
+        flex-wrap: wrap;
+    }
+}
+
 
 .ideas-img {
     display: flex;
@@ -158,9 +272,16 @@ a:active {
     flex-wrap: wrap;
 }
 
-@media (max-width:1150px) {
+@media (max-width:1024) {
     .nosotos-text {
-        width: 550px;
+        width: 350px;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:844px) {
+    .nosotos-text {
+        width: 270px;
         flex-wrap: wrap;
     }
 }
@@ -171,8 +292,8 @@ a:active {
     height: 100%;
     display: flex;
     justify-content: center;
-
 }
+
 
 .title-inicio {
     text-align: center;
@@ -182,36 +303,43 @@ a:active {
     margin-bottom: 5%;
 }
 
+
 .conteiner-fav {
     text-align: center;
     margin-bottom: 15px;
 }
 
+
 .fav-img {
     display: flex;
 }
+
 
 .w-100 {
     max-height: 600px;
     width: 30px;
 }
 
+
 .titulo-encontra {
     color: #050505;
 }
+
 
 .encontra-ideas {
     color: #050505;
 }
 
+
 .quienes-somos {
     padding-bottom: 5px;
 }
 
-
 /*----FIN DE MAIN----*/
 
+
 /*----INICIO DE FOOTER----*/
+
 .bg-footer {
     background-color: rgb(119, 194, 169);
     padding: 10px;
@@ -220,16 +348,19 @@ a:active {
     margin-top: 300px;
 }
 
+
 .type-color {
     color: #050505;
     font-size: 20px;
 }
+
 
 .redes a i {
     font-size: 25px;
     text-align: center;
     padding: 5px 10px;
 }
+
 
 .redes a i:hover {
     transform: scale(1.5);
@@ -238,5 +369,3 @@ a:active {
 }
 
 /*----FIN DE FOOTER----*/
-
-/*---PÁGINA RESPONSIVE---*/
